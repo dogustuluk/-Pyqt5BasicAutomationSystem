@@ -47,7 +47,7 @@ def Ekle():
     _lneSporcuAdi = ui.lneSporcuAdi.text()
     _lneSporcuSoyadi= ui.lneSporcuSoyadi.text()
     _cmbSporKulubu= ui.cmbSporKulubu.currentText()
-    _lwBrans= ui.lwBrans.currentItem()
+    _lwBrans= ui.lwBrans.currentItem().text()
     _cmbCinsiyet= ui.cmbCinsiyet.currentText()
     _cwDTarihi= ui.cwDTarihi.selectedDate().toString(QtCore.Qt.DateFormat.ISODate)
     if ui.chkMedeniHal.isChecked():
